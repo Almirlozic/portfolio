@@ -9,7 +9,14 @@ img{
 
 body{
     background-color: #FFFDF7;
-
+}
+@font-face{
+    font-family: inter bold;
+    src: url();
+}
+@font-face{
+    font-family: inter;
+    src: url();
 }
 
 h1, h2{
