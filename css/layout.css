@@ -14,13 +14,13 @@ h2{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.col{
+.card{
     padding-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.col img{
+.card img{
     width: 350px;
 }
 button{
