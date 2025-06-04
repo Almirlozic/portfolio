@@ -1,0 +1,77 @@
+
+/* mobil version forside */
+  .hero{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+  }
+  .text-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: #ffff;
+  }
+  .navn{
+    margin: -50px 25px;
+  }
+  .text-content{
+    margin-top: 80px;
+  }
+  .text-content h1{
+    border-bottom: 1px solid white;
+    font-size: 3.5rem;
+  }
+  .flex-text{
+    display: flex;
+    gap: 80px;
+    margin-left: 140px;
+  }
+  .number{
+    font-size: 2rem;
+  }
+  
+  /* desktop version forside */
+  @media(min-width: 800px){
+    .hero{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: -1;
+    object-fit: cover;
+  }
+  .text-content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #ffff;
+  }
+  .navn{
+    font-size: 1.5rem;
+    margin: -50px 40px;
+  }
+  .text-content{
+    margin-top: 80px;
+  }
+  .text-content h1{
+    border-bottom: 1px solid white;
+    font-size: 8rem;
+  }
+  .flex-text{
+    display: flex;
+    gap: 300px;
+    margin-left: 300px;
+  }
+  .number{
+    font-size: 4rem;
+  }
+
+  }
+
+
+ 
+    
+   
