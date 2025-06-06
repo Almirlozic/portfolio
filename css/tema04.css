@@ -1,0 +1,47 @@
+.grid_1-1-grøn{
+    background-color: #575549;
+    padding: 10px;
+    color: #fff;
+    line-height: 2;
+    margin-top: 70px;
+}
+.grid_1-1-grøn h2, p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p, h2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.grid_1-1-grøn img{
+    margin-top: 30px ;
+}
+/* Userstory css mobil */
+.grid_1-1{
+    padding: 10px;
+    line-height: 2;
+    margin-top: 100px;
+}
+.grid_1-1 img{
+    margin-top: 30px;
+}
+
+/* desktop css tema03 */
+
+@media(min-width: 1024px){
+    .grid_1-1-grøn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        gap: 30px;
+    }
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        gap: 30px;
+    }
+    div{
+        margin-top: 30px;
+    }
+}
