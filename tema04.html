@@ -18,9 +18,88 @@
         <li class="link-item"><a class="link" href="1.semester.html">1.Semester</a></li>
         <li class="link-item"><a class="link" href="om_mig.html">Om mig</a></li>
       </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <h1>Grundlæggende animation - emergencysite</h1>
+      <section class="grid_1-1-grøn">
+        <img src="img/tema04/billlede1.webp" alt="" />
+        <div>
+          <h2>Emeregency - site</h2>
+          <p>
+            I dette projekt arbejdede jeg med at videreudvikle et eksisterende Emergency Site ved at tilføje nye visuelle og funktionelle elementer med HTML, CSS og JavaScript. Jeg valgte selv et scenarie (træt af tom benzintank) og tilpassede design
+            og indhold derefter. Undervejs har jeg designet en interaktiv infografik i Illustrator, udviklet en webformular til brugerinput, bygget en forside og til sidst implementeret dark mode. Jeg har fulgt de udleverede wireframes og den
+            struktur sitet skulle have, men har samtidig sat mit eget præg på udtrykket.
+          </p>
+        </div>
+      </section>
+      <section class="grid_1-1">
+        <div>
+          <h2>Infografik med pentool</h2>
+          <p>
+            Min infografik viser en elbil, som er en vigtig del af løsningen i min valgte nødsituation. Jeg startede med at lave tre forskellige skitser til min infografik for at gøre min proces nemmere når det kom til at tegne det i illustrator og
+            kode det. Jeg har valgt at tegne tre lynsymboler på bilen så det er nemt for brugeren at se at der er tale om en elbil. I min infografik har jeg tilføjet tre cirkler, som fremhæver vigtige dele af elbilen: opladeren, forlygten og
+            forhjulet. Jeg har placeret dem ved hjælp af HTML, som er stylet og positioneret med CSS, så de ligger præcist oven på SVG-grafikken. For at gøre cirklerne interaktive, har jeg brugt JavaScript. Når brugeren klikker på en cirkel, vises
+            der en lille tekstboks med information om fordelene ved elbilen.
+          </p>
+        </div>
+        <img src="img/tema04/billede2.webp" alt="" />
+      </section>
+      <section class="grid_1-1-grøn">
+        <div>
+          <h2>Webformular</h2>
+          <p>
+            På anden del af mit Emergency Site har jeg udviklet en webformular, der gør det muligt for brugeren at booke en testkørsel af en elbil i en fiktiv nødsituation. Formularen er opbygget i HTML og giver brugeren mulighed for at indtaste
+            navn, efternavn og e-mailadresse, vælge bilmodel, vælge dato og tidspunkt for testkørslen samt bekræfte, om de ønsker at deltage. Når brugeren indsender formularen, vises alle oplysninger automatisk i en opsummeringsboks til højre,
+            hvilket giver et klart overblik og bekræftelse på bookingen.
+          </p>
+        </div>
+        <img src="img/tema04/billede3.webp" alt="" />
+      </section>
+      <section class="grid_1-1">
+        <div>
+          <h2>Javascript - forms</h2>
+          <p>
+            I denne del af opgaven har jeg brugt JavaScript til at gøre webformularen interaktiv. Når brugeren trykker på "Indsend", vises en opsummering med de indtastede oplysninger direkte på siden. Det sker via funktionen submitForm(), som henter
+            inputfelternes værdier med querySelector() og viser dem i højre side. Markerede checkboxes hentes med querySelectorAll() og vises med en forEach-funktion.
+          </p>
+        </div>
+        <img src="img/tema04/billede4.webp" alt="" />
+      </section>
+      <section class="grid_1-1">
+        <div>
+          <h2>Javascript - infografik</h2>
+          <p>
+            I denne del af opgaven har jeg brugt JavaScript til at gøre mine cirkler interaktive. Når brugeren klikker på en af cirklerne, vises forskellige fordele ved elbilen i højre side af skærmen – ligesom i form-siden, hvor brugerens input
+            vises. Indholdet opdateres dynamisk uden at siden genindlæses. I funktionen circle1() bruges querySelector() til at opdatere overskriften og teksten i højre side med nyt indhold. Der vises både en kort introduktion og en konkret fordel
+            ved elbilen, som f.eks. muligheden for at oplade natten over. Funktionen aktiverer også en animation med animateBoxes() for at understøtte det visuelle udtryk.
+          </p>
+        </div>
+        <img src="img/tema04/billede5.webp" alt="" />
+      </section>
+      <section class="grid_1-1-grøn">
+        <div>
+          <h2>Light & darkmode</h2>
+          <p>
+            På billedet ses mit arbejde med både en dark mode-funktion og en interaktiv formular til mit Emergency Site. Øverst ses JavaScript-koden, der skifter mellem lys og mørk tilstand ved at ændre href-værdien på stylesheetet. Samtidig ændres
+            knapteksten, så brugeren altid ved, hvilken tilstand der er aktiv. Dette forbedrer brugeroplevels. Nederst ses en formular, hvor brugeren kan booke en testkørsel – vist i både lys og mørk version.
+          </p>
+        </div>
+        <img src="img/tema04/billede6.webp" alt="" />
+        <img src="img/tema04/billede7.webp" alt="" />
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>Almir Lozic</p>
+        <img src="img/logo/Asset 1.svg" alt="billede af mine al initatialer" />
+        <p>1.Semester</p>
+      </div>
+    </footer>
     <script src="js/general.js"></script>
   </body>
 </html>

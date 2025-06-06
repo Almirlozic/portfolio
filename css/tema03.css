@@ -32,7 +32,7 @@ p, h2{
 
 /* desktop css tema03 */
 
-@media(min-width: 800px){
+@media(min-width: 1024px){
     .grid_1-1-grøn{
         display: grid;
         grid-template-columns: 1fr 1fr;
