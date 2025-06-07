@@ -19,7 +19,7 @@ h1{
 
 
 /* tema02 css desktop */
-@media(min-width: 800px){
+@media(min-width: 1024px){
     .grid_1-1{
     display: grid;
     grid-template-columns: 1fr 1fr;
