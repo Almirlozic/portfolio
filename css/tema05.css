@@ -1,0 +1,44 @@
+.grøn{
+    background-color: #575549;
+    text-align: center;
+    line-height: 2;
+    padding: 20px;
+    color: #ffff;
+}
+.grøn div{
+    margin-bottom: 100px;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+}
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tema05-site{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.tema05-site img{
+    margin-bottom: 10px;
+}
+.proces{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.proces:hover{
+    color: #575549;
+}
+
+
+/* tema05 css desktop */
+@media(min-width: 1024px){
+    .proces{
+        margin-left: 150px;
+        font-size: 2rem;
+    }
+}
+
