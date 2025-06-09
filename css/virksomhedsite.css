@@ -1,0 +1,56 @@
+.grøn{
+    background-color: #575549;
+    text-align: center;
+    line-height: 2;
+    padding: 20px;
+    color: #ffff;
+}
+.grøn div{
+    margin-bottom: 100px;
+}
+.grid_1-1 img{
+    margin-top: 50px;
+}
+.grid_1-1{
+    margin-top: 50px;
+    padding: 20px;
+}
+.grid_1-1 p, h2{
+    margin-top: 30px;
+}
+.grid_1-1 p{
+    line-height: 2;
+}
+.grid_1-1-grøn{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #575549;
+    color: #ffff;
+}
+.grid_1-1-grøn{
+    line-height: 2;
+}
+.grid_1-1-grøn img{
+    margin-top: 30px;
+}
+
+@media(min-width: 1024px){
+    .grid_1-1-grøn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        gap: 30px;
+    }
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 30px;
+        gap: 30px;
+    }
+    div{
+        margin-top: 30px;
+    }
+    .grid_1-1-grøn h2{
+        margin-bottom: 20px;
+    }
+}
