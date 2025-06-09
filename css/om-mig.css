@@ -1,0 +1,47 @@
+img{
+    margin-top: 50px;
+}
+.grid_1-1{
+    padding: 30px;
+    line-height: 2;
+}
+.grid_1-1 h3, p{
+    margin-top: 15px;
+}
+.flex{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+@media(min-width: 1024px){
+    h3{
+        font-size: 1.5rem;
+    }
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 100px;
+        gap: 100px;
+    }
+    .grid_1-1 div{
+        margin-top: 100px;
+        line-height: 2;
+    }
+    .grid_1-1 h3{
+        margin-top: 50px;
+    }
+    .tekst{
+        margin-bottom: -200px;
+    }
+    .flex{
+        display: flex;
+        margin-left: 50px;
+        gap: 200px;
+    }
+  
+}
