@@ -48,11 +48,21 @@ header {
   display: none;
 }
 @media screen and (max-width: 800px) {
+  header{
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+  }
+  .logo{
+    margin-left: 30px;
+  }
+  
   .links {
     display: none;
   }
   .burger {
     display: block;
+    margin-bottom: 10px;
   }
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
@@ -76,9 +86,8 @@ header {
     top: 94px;
     left: 0;
     width: 100%;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
-    margin-top: 25px;
+    margin-top: 15px;
   }
 
   header.active .links li {
