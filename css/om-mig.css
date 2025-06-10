@@ -6,12 +6,7 @@
 .grid_1-1 h3, p{
     margin-top: 15px;
 }
-.flex{
-    display: flex;
-    gap: 100px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
+
 
 
 
@@ -33,10 +28,17 @@
     .grid_1-1 h3{
         margin-top: 50px;
     }
+    .tekst{
+        margin-bottom: -200px;
+    }
     .flex{
         display: flex;
         margin-left: 50px;
-        gap: 200px;
+        gap: 50px;
+    }
+    .border{
+        border: 1px solid black;
+        padding: 10px;
     }
   
 }
